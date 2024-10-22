@@ -1,11 +1,7 @@
-package gopackagetesting_test
+package testingPackage
 
 import "fmt"
 
 func TestingPackageFunc() {
 	fmt.Println(("Hello from a package func"))
-}
-
-func main() {
-	fmt.Println(("Hello from a package"))
 }
